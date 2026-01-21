@@ -1,0 +1,1022 @@
+[
+    {
+"docImg": "https://example.com/images/dentist1.jpg",
+"docName": "Dr. Dr. K. R. Rithani B.D.S.",
+"docId": "DNT001",
+"clinicId": "CLN021",
+"clinicName": "Pearl Dental Coimbatore",
+"clinicLocation": "G.K.D. Road, Coimbatore",
+"clinicNumber": "+91-424-871686",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist1.jpg",
+"docName": "Dr. F. Lakshmi MDS",
+"docId": "DNT001",
+"clinicId": "CLN021",
+"clinicName": "Pearl Dental Coimbatore",
+"clinicLocation": "G.K.D. Road, Coimbatore",
+"clinicNumber": "+91-424-871686",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist2.jpg",
+"docName": "Dr. P. Muthu MDS",
+"docId": "DNT002",
+"clinicId": "CLN022",
+"clinicName": "Guru Dental Coimbatore",
+"clinicLocation": "Avinashi Road, Coimbatore",
+"clinicNumber": "+91-4324-435642",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist3.jpg",
+"docName": "Dr. W. Karthikeyan MDS",
+"docId": "DNT003",
+"clinicId": "CLN023",
+"clinicName": "Pearl White Karur",
+"clinicLocation": "Andankoil, Karur",
+"clinicNumber": "+91-424-622589",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist4.jpg",
+"docName": "Dr. N. Vigneshwaran MDS",
+"docId": "DNT004",
+"clinicId": "CLN024",
+"clinicName": "Dental World Erode",
+"clinicLocation": "Vairapalayam, Erode",
+"clinicNumber": "+91-422-771134",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist5.jpg",
+"docName": "Dr. B. Reddy BDS",
+"docId": "DNT005",
+"clinicId": "CLN025",
+"clinicName": "Pearl Dental Erode",
+"clinicLocation": "Surampatti, Erode",
+"clinicNumber": "+91-4324-654900",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist6.jpg",
+"docName": "Dr. R. Babu MDS",
+"docId": "DNT006",
+"clinicId": "CLN026",
+"clinicName": "Pearl Dental Erode",
+"clinicLocation": "Ghantasala Road, Erode",
+"clinicNumber": "+91-422-793200",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist7.jpg",
+"docName": "Dr. T. Devi BDS",
+"docId": "DNT007",
+"clinicId": "CLN027",
+"clinicName": "Elite Dental Coimbatore",
+"clinicLocation": "Singanallur, Coimbatore",
+"clinicNumber": "+91-422-230446",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist8.jpg",
+"docName": "Dr. F. Muthu MDS",
+"docId": "DNT008",
+"clinicId": "CLN028",
+"clinicName": "Pearl Dental Erode",
+"clinicLocation": "Ghantasala Road, Erode",
+"clinicNumber": "+91-424-890018",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist9.jpg",
+"docName": "Dr. I. Lakshmi BDS",
+"docId": "DNT009",
+"clinicId": "CLN029",
+"clinicName": "Elite Dental Karur",
+"clinicLocation": "Pugalur, Karur",
+"clinicNumber": "+91-422-104731",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist10.jpg",
+"docName": "Dr. G. Ganesh BDS",
+"docId": "DNT010",
+"clinicId": "CLN030",
+"clinicName": "Pearl Dental Erode",
+"clinicLocation": "Surampatti, Erode",
+"clinicNumber": "+91-4324-950740",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist11.jpg",
+"docName": "Dr. I. Sindhuja MDS",
+"docId": "DNT011",
+"clinicId": "CLN031",
+"clinicName": "Smile Makers Karur",
+"clinicLocation": "Pasupathipalayam, Karur",
+"clinicNumber": "+91-4324-795153",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist12.jpg",
+"docName": "Dr. G. Prakash BDS",
+"docId": "DNT012",
+"clinicId": "CLN032",
+"clinicName": "Dental World Erode",
+"clinicLocation": "Nanjappa Road, Erode",
+"clinicNumber": "+91-424-586430",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist13.jpg",
+"docName": "Dr. U. Iyer BDS",
+"docId": "DNT013",
+"clinicId": "CLN033",
+"clinicName": "Dental Hub Coimbatore",
+"clinicLocation": "R.S. Puram, Coimbatore",
+"clinicNumber": "+91-422-198573",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist14.jpg",
+"docName": "Dr. T. Deepa BDS",
+"docId": "DNT014",
+"clinicId": "CLN034",
+"clinicName": "Dental World Coimbatore",
+"clinicLocation": "Avinashi Road, Coimbatore",
+"clinicNumber": "+91-4324-494065",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist15.jpg",
+"docName": "Dr. J. Pillai MDS",
+"docId": "DNT015",
+"clinicId": "CLN035",
+"clinicName": "Smile Centre Karur",
+"clinicLocation": "Pugalur, Karur",
+"clinicNumber": "+91-424-912198",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist16.jpg",
+"docName": "Dr. X. Babu BDS",
+"docId": "DNT016",
+"clinicId": "CLN036",
+"clinicName": "Guru Dental Erode",
+"clinicLocation": "Perundurai Road, Erode",
+"clinicNumber": "+91-422-881546",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist17.jpg",
+"docName": "Dr. X. Priya MDS",
+"docId": "DNT017",
+"clinicId": "CLN037",
+"clinicName": "Dental World Erode",
+"clinicLocation": "Surampatti, Erode",
+"clinicNumber": "+91-424-503812",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist18.jpg",
+"docName": "Dr. A. Prakash MDS",
+"docId": "DNT018",
+"clinicId": "CLN038",
+"clinicName": "Smile Makers Coimbatore",
+"clinicLocation": "Race Course, Coimbatore",
+"clinicNumber": "+91-424-927206",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist19.jpg",
+"docName": "Dr. O. Sindhuja MDS",
+"docId": "DNT019",
+"clinicId": "CLN039",
+"clinicName": "Elite Smiles Coimbatore",
+"clinicLocation": "RS Puram, Coimbatore",
+"clinicNumber": "+91-4324-111202",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist20.jpg",
+"docName": "Dr. O. Senthil BDS",
+"docId": "DNT020",
+"clinicId": "CLN040",
+"clinicName": "Dental World Erode",
+"clinicLocation": "Perundurai Road, Erode",
+"clinicNumber": "+91-424-151333",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist21.jpg",
+"docName": "Dr. L. Muthu BDS",
+"docId": "DNT021",
+"clinicId": "CLN041",
+"clinicName": "Pearl Dental Karur",
+"clinicLocation": "Thennampalayam, Karur",
+"clinicNumber": "+91-422-267869",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist22.jpg",
+"docName": "Dr. Z. Priya BDS",
+"docId": "DNT022",
+"clinicId": "CLN042",
+"clinicName": "Smile Makers Coimbatore",
+"clinicLocation": "Singanallur, Coimbatore",
+"clinicNumber": "+91-4324-630461",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist23.jpg",
+"docName": "Dr. L. Iyer BDS",
+"docId": "DNT023",
+"clinicId": "CLN043",
+"clinicName": "Dental Care Karur",
+"clinicLocation": "Pasupathipalayam, Karur",
+"clinicNumber": "+91-422-958207",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist24.jpg",
+"docName": "Dr. X. Srinivasan MDS",
+"docId": "DNT024",
+"clinicId": "CLN044",
+"clinicName": "Elite Smiles Coimbatore",
+"clinicLocation": "G.K.D. Road, Coimbatore",
+"clinicNumber": "+91-4324-778946",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist25.jpg",
+"docName": "Dr. A. Narayanan MDS",
+"docId": "DNT025",
+"clinicId": "CLN045",
+"clinicName": "Dental Bliss Karur",
+"clinicLocation": "Andankoil, Karur",
+"clinicNumber": "+91-4324-507906",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist26.jpg",
+"docName": "Dr. O. Lakshmi BDS",
+"docId": "DNT026",
+"clinicId": "CLN046",
+"clinicName": "Dental Specialists Karur",
+"clinicLocation": "Pugalur, Karur",
+"clinicNumber": "+91-424-728431",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist27.jpg",
+"docName": "Dr. X. Vijayalakshmi BDS",
+"docId": "DNT027",
+"clinicId": "CLN047",
+"clinicName": "Dental Bliss Coimbatore",
+"clinicLocation": "Peelamedu, Coimbatore",
+"clinicNumber": "+91-424-530686",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist28.jpg",
+"docName": "Dr. M. Anitha BDS",
+"docId": "DNT028",
+"clinicId": "CLN048",
+"clinicName": "Guru Dental Erode",
+"clinicLocation": "Bharani Nagar, Erode",
+"clinicNumber": "+91-422-252874",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist29.jpg",
+"docName": "Dr. D. Muthu MDS",
+"docId": "DNT029",
+"clinicId": "CLN049",
+"clinicName": "Dental Harmony Coimbatore",
+"clinicLocation": "G.K.D. Road, Coimbatore",
+"clinicNumber": "+91-424-414249",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist30.jpg",
+"docName": "Dr. A. Muthu MDS",
+"docId": "DNT030",
+"clinicId": "CLN050",
+"clinicName": "Pearl Dental Coimbatore",
+"clinicLocation": "Peelamedu, Coimbatore",
+"clinicNumber": "+91-4324-232656",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist31.jpg",
+"docName": "Dr. C. Arunachalam BDS",
+"docId": "DNT031",
+"clinicId": "CLN051",
+"clinicName": "Dental Bliss Erode",
+"clinicLocation": "C.M.S. Road, Erode",
+"clinicNumber": "+91-424-998296",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist32.jpg",
+"docName": "Dr. C. Reddy BDS",
+"docId": "DNT032",
+"clinicId": "CLN052",
+"clinicName": "Multispeciality Dental Erode",
+"clinicLocation": "Bharani Nagar, Erode",
+"clinicNumber": "+91-424-121131",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist33.jpg",
+"docName": "Dr. C. Deepa MDS",
+"docId": "DNT033",
+"clinicId": "CLN053",
+"clinicName": "Dental Harmony Erode",
+"clinicLocation": "P.S. Road, Erode",
+"clinicNumber": "+91-4324-706766",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist34.jpg",
+"docName": "Dr. S. Rajendran MDS",
+"docId": "DNT034",
+"clinicId": "CLN054",
+"clinicName": "Elite Smiles Karur",
+"clinicLocation": "Kulithalai Road, Karur",
+"clinicNumber": "+91-422-679899",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist35.jpg",
+"docName": "Dr. R. Kavya MDS",
+"docId": "DNT035",
+"clinicId": "CLN055",
+"clinicName": "Smile Centre Karur",
+"clinicLocation": "Pasupathikoil, Karur",
+"clinicNumber": "+91-424-310994",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist36.jpg",
+"docName": "Dr. N. Deepa BDS",
+"docId": "DNT036",
+"clinicId": "CLN056",
+"clinicName": "Pearl Dental Karur",
+"clinicLocation": "Thanakkankulam, Karur",
+"clinicNumber": "+91-424-403121",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist37.jpg",
+"docName": "Dr. F. Vigneshwaran MDS",
+"docId": "DNT037",
+"clinicId": "CLN057",
+"clinicName": "Elite Dental Karur",
+"clinicLocation": "Melakarur, Karur",
+"clinicNumber": "+91-422-923666",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist38.jpg",
+"docName": "Dr. T. Iyer MDS",
+"docId": "DNT038",
+"clinicId": "CLN058",
+"clinicName": "Dental Bliss Coimbatore",
+"clinicLocation": "RS Puram, Coimbatore",
+"clinicNumber": "+91-424-143191",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist39.jpg",
+"docName": "Dr. Z. Sindhuja MDS",
+"docId": "DNT039",
+"clinicId": "CLN059",
+"clinicName": "Elite Smiles Coimbatore",
+"clinicLocation": "Gandhipuram, Coimbatore",
+"clinicNumber": "+91-424-924953",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist40.jpg",
+"docName": "Dr. T. Revathi MDS",
+"docId": "DNT040",
+"clinicId": "CLN060",
+"clinicName": "Dental Bliss Coimbatore",
+"clinicLocation": "Singanallur, Coimbatore",
+"clinicNumber": "+91-422-194950",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist41.jpg",
+"docName": "Dr. V. Devi BDS",
+"docId": "DNT041",
+"clinicId": "CLN061",
+"clinicName": "Dental Care Coimbatore",
+"clinicLocation": "Race Course, Coimbatore",
+"clinicNumber": "+91-422-112020",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist42.jpg",
+"docName": "Dr. F. Vijayalakshmi MDS",
+"docId": "DNT042",
+"clinicId": "CLN062",
+"clinicName": "Dental Hub Karur",
+"clinicLocation": "Melakarur, Karur",
+"clinicNumber": "+91-4324-680540",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist43.jpg",
+"docName": "Dr. S. Sindhuja BDS",
+"docId": "DNT043",
+"clinicId": "CLN063",
+"clinicName": "Dental Care Erode",
+"clinicLocation": "Nanjappa Road, Erode",
+"clinicNumber": "+91-422-674500",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist44.jpg",
+"docName": "Dr. Z. Lakshmi MDS",
+"docId": "DNT044",
+"clinicId": "CLN064",
+"clinicName": "Dental Specialists Karur",
+"clinicLocation": "Thennampalayam, Karur",
+"clinicNumber": "+91-4324-806559",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist45.jpg",
+"docName": "Dr. V. Karthikeyan BDS",
+"docId": "DNT045",
+"clinicId": "CLN065",
+"clinicName": "Multispeciality Dental Karur",
+"clinicLocation": "Pasupathipalayam, Karur",
+"clinicNumber": "+91-422-561489",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist46.jpg",
+"docName": "Dr. D. Anitha BDS",
+"docId": "DNT046",
+"clinicId": "CLN066",
+"clinicName": "Elite Smiles Erode",
+"clinicLocation": "Vairapalayam, Erode",
+"clinicNumber": "+91-424-724661",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist47.jpg",
+"docName": "Dr. Y. Deepa MDS",
+"docId": "DNT047",
+"clinicId": "CLN067",
+"clinicName": "Pearl White Karur",
+"clinicLocation": "Andankoil, Karur",
+"clinicNumber": "+91-424-974203",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist48.jpg",
+"docName": "Dr. H. Devi MDS",
+"docId": "DNT048",
+"clinicId": "CLN068",
+"clinicName": "Elite Dental Karur",
+"clinicLocation": "Andankoil, Karur",
+"clinicNumber": "+91-422-287522",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist49.jpg",
+"docName": "Dr. C. Senthil BDS",
+"docId": "DNT049",
+"clinicId": "CLN069",
+"clinicName": "Dental Bliss Coimbatore",
+"clinicLocation": "Race Course, Coimbatore",
+"clinicNumber": "+91-4324-560679",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist50.jpg",
+"docName": "Dr. N. Meena MDS",
+"docId": "DNT050",
+"clinicId": "CLN070",
+"clinicName": "Bright Teeth Erode",
+"clinicLocation": "Surampatti, Erode",
+"clinicNumber": "+91-4324-962116",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist51.jpg",
+"docName": "Dr. M. Narayanan MDS",
+"docId": "DNT051",
+"clinicId": "CLN071",
+"clinicName": "Bright Smile Karur",
+"clinicLocation": "Pasupathikoil, Karur",
+"clinicNumber": "+91-4324-592423",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist52.jpg",
+"docName": "Dr. V. Ganesh MDS",
+"docId": "DNT052",
+"clinicId": "CLN072",
+"clinicName": "Smile Centre Erode",
+"clinicLocation": "Vairapalayam, Erode",
+"clinicNumber": "+91-4324-609576",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist53.jpg",
+"docName": "Dr. C. Meena BDS",
+"docId": "DNT053",
+"clinicId": "CLN073",
+"clinicName": "Smile Zone Coimbatore",
+"clinicLocation": "Gandhipuram, Coimbatore",
+"clinicNumber": "+91-424-834370",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist54.jpg",
+"docName": "Dr. U. Balamurugan MDS",
+"docId": "DNT054",
+"clinicId": "CLN074",
+"clinicName": "Pearl Dental Karur",
+"clinicLocation": "Kulithalai Road, Karur",
+"clinicNumber": "+91-424-117984",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist55.jpg",
+"docName": "Dr. J. Vigneshwaran MDS",
+"docId": "DNT055",
+"clinicId": "CLN075",
+"clinicName": "Dental Hub Coimbatore",
+"clinicLocation": "RS Puram, Coimbatore",
+"clinicNumber": "+91-424-124414",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist56.jpg",
+"docName": "Dr. X. Srinivasan MDS",
+"docId": "DNT056",
+"clinicId": "CLN076",
+"clinicName": "Guru Dental Coimbatore",
+"clinicLocation": "Saibaba Colony, Coimbatore",
+"clinicNumber": "+91-4324-740074",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist57.jpg",
+"docName": "Dr. B. Senthil BDS",
+"docId": "DNT057",
+"clinicId": "CLN077",
+"clinicName": "Guru Dental Karur",
+"clinicLocation": "Vangal, Karur",
+"clinicNumber": "+91-422-553971",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist58.jpg",
+"docName": "Dr. M. Pillai MDS",
+"docId": "DNT058",
+"clinicId": "CLN078",
+"clinicName": "Elite Dental Erode",
+"clinicLocation": "Brough Road, Erode",
+"clinicNumber": "+91-424-194864",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist59.jpg",
+"docName": "Dr. T. Vigneshwaran BDS",
+"docId": "DNT059",
+"clinicId": "CLN079",
+"clinicName": "Pearl Dental Karur",
+"clinicLocation": "Pugalur, Karur",
+"clinicNumber": "+91-422-242392",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist60.jpg",
+"docName": "Dr. E. Devi MDS",
+"docId": "DNT060",
+"clinicId": "CLN080",
+"clinicName": "Bright Teeth Coimbatore",
+"clinicLocation": "RS Puram, Coimbatore",
+"clinicNumber": "+91-424-176262",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist61.jpg",
+"docName": "Dr. A. Menon MDS",
+"docId": "DNT061",
+"clinicId": "CLN081",
+"clinicName": "Pearl Dental Coimbatore",
+"clinicLocation": "Race Course, Coimbatore",
+"clinicNumber": "+91-424-356698",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist62.jpg",
+"docName": "Dr. I. Anitha MDS",
+"docId": "DNT062",
+"clinicId": "CLN082",
+"clinicName": "Smile Makers Coimbatore",
+"clinicLocation": "RS Puram, Coimbatore",
+"clinicNumber": "+91-424-877545",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist63.jpg",
+"docName": "Dr. F. Babu BDS",
+"docId": "DNT063",
+"clinicId": "CLN083",
+"clinicName": "Smile Makers Karur",
+"clinicLocation": "Thanakkankulam, Karur",
+"clinicNumber": "+91-4324-560127",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist64.jpg",
+"docName": "Dr. L. Lakshmi BDS",
+"docId": "DNT064",
+"clinicId": "CLN084",
+"clinicName": "Pearl White Karur",
+"clinicLocation": "Andankoil, Karur",
+"clinicNumber": "+91-4324-604736",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist65.jpg",
+"docName": "Dr. M. Muthu BDS",
+"docId": "DNT065",
+"clinicId": "CLN085",
+"clinicName": "Dental Harmony Erode",
+"clinicLocation": "Ghantasala Road, Erode",
+"clinicNumber": "+91-422-137546",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist66.jpg",
+"docName": "Dr. H. Kumar MDS",
+"docId": "DNT066",
+"clinicId": "CLN086",
+"clinicName": "Pearl White Erode",
+"clinicLocation": "Bharani Nagar, Erode",
+"clinicNumber": "+91-4324-448315",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist67.jpg",
+"docName": "Dr. R. Iyer BDS",
+"docId": "DNT067",
+"clinicId": "CLN087",
+"clinicName": "Bright Smile Coimbatore",
+"clinicLocation": "Singanallur, Coimbatore",
+"clinicNumber": "+91-4324-994236",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist68.jpg",
+"docName": "Dr. Q. Anitha MDS",
+"docId": "DNT068",
+"clinicId": "CLN088",
+"clinicName": "Dental Bliss Karur",
+"clinicLocation": "Kulithalai Road, Karur",
+"clinicNumber": "+91-424-341660",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist69.jpg",
+"docName": "Dr. G. Meena BDS",
+"docId": "DNT069",
+"clinicId": "CLN089",
+"clinicName": "Pearl White Karur",
+"clinicLocation": "Pasupathipalayam, Karur",
+"clinicNumber": "+91-4324-881667",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist70.jpg",
+"docName": "Dr. U. Sindhuja BDS",
+"docId": "DNT070",
+"clinicId": "CLN090",
+"clinicName": "Smile Zone Karur",
+"clinicLocation": "Thennampalayam, Karur",
+"clinicNumber": "+91-422-138723",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist71.jpg",
+"docName": "Dr. P. Priya BDS",
+"docId": "DNT071",
+"clinicId": "CLN091",
+"clinicName": "Pearl Dental Coimbatore",
+"clinicLocation": "R.S. Puram, Coimbatore",
+"clinicNumber": "+91-4324-712075",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist72.jpg",
+"docName": "Dr. F. Deepa BDS",
+"docId": "DNT072",
+"clinicId": "CLN092",
+"clinicName": "Pearl Dental Karur",
+"clinicLocation": "Kulithalai Road, Karur",
+"clinicNumber": "+91-422-834887",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist73.jpg",
+"docName": "Dr. G. Sindhuja BDS",
+"docId": "DNT073",
+"clinicId": "CLN093",
+"clinicName": "Dental Care Centre Karur",
+"clinicLocation": "Pasupathipalayam, Karur",
+"clinicNumber": "+91-424-966973",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist74.jpg",
+"docName": "Dr. D. Pillai BDS",
+"docId": "DNT074",
+"clinicId": "CLN094",
+"clinicName": "Smile Makers Karur",
+"clinicLocation": "Pugalur, Karur",
+"clinicNumber": "+91-422-721317",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist75.jpg",
+"docName": "Dr. A. Ganesh BDS",
+"docId": "DNT075",
+"clinicId": "CLN095",
+"clinicName": "Elite Dental Erode",
+"clinicLocation": "Vairapalayam, Erode",
+"clinicNumber": "+91-424-793261",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist76.jpg",
+"docName": "Dr. D. Balamurugan MDS",
+"docId": "DNT076",
+"clinicId": "CLN096",
+"clinicName": "Dental Bliss Karur",
+"clinicLocation": "Vangal Road, Karur",
+"clinicNumber": "+91-4324-454362",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist77.jpg",
+"docName": "Dr. R. Rani BDS",
+"docId": "DNT077",
+"clinicId": "CLN097",
+"clinicName": "Dental Specialists Coimbatore",
+"clinicLocation": "Singanallur, Coimbatore",
+"clinicNumber": "+91-424-251669",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist78.jpg",
+"docName": "Dr. Y. Anitha MDS",
+"docId": "DNT078",
+"clinicId": "CLN098",
+"clinicName": "Elite Dental Karur",
+"clinicLocation": "Vangal, Karur",
+"clinicNumber": "+91-4324-518037",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist79.jpg",
+"docName": "Dr. F. Nivetha MDS",
+"docId": "DNT079",
+"clinicId": "CLN099",
+"clinicName": "Elite Dental Coimbatore",
+"clinicLocation": "RS Puram, Coimbatore",
+"clinicNumber": "+91-4324-466403",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist80.jpg",
+"docName": "Dr. V. Lakshmi BDS",
+"docId": "DNT080",
+"clinicId": "CLN100",
+"clinicName": "Elite Dental Karur",
+"clinicLocation": "Kulithalai Road, Karur",
+"clinicNumber": "+91-424-894844",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist81.jpg",
+"docName": "Dr. U. Balamurugan MDS",
+"docId": "DNT081",
+"clinicId": "CLN101",
+"clinicName": "Smile Makers Coimbatore",
+"clinicLocation": "G.K.D. Road, Coimbatore",
+"clinicNumber": "+91-424-754538",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist82.jpg",
+"docName": "Dr. Y. Prakash MDS",
+"docId": "DNT082",
+"clinicId": "CLN102",
+"clinicName": "Pearl Dental Coimbatore",
+"clinicLocation": "Race Course, Coimbatore",
+"clinicNumber": "+91-4324-761205",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist83.jpg",
+"docName": "Dr. V. Deepa MDS",
+"docId": "DNT083",
+"clinicId": "CLN103",
+"clinicName": "Dental Hub Coimbatore",
+"clinicLocation": "Avinashi Road, Coimbatore",
+"clinicNumber": "+91-4324-270578",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist84.jpg",
+"docName": "Dr. G. Rajendran BDS",
+"docId": "DNT084",
+"clinicId": "CLN104",
+"clinicName": "Smile Makers Coimbatore",
+"clinicLocation": "G.K.D. Road, Coimbatore",
+"clinicNumber": "+91-4324-945157",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist85.jpg",
+"docName": "Dr. K. Senthil BDS",
+"docId": "DNT085",
+"clinicId": "CLN105",
+"clinicName": "Pearl Dental Erode",
+"clinicLocation": "Nanjappa Road, Erode",
+"clinicNumber": "+91-422-213548",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist86.jpg",
+"docName": "Dr. I. Sindhuja BDS",
+"docId": "DNT086",
+"clinicId": "CLN106",
+"clinicName": "Smile Centre Erode",
+"clinicLocation": "Vairapalayam, Erode",
+"clinicNumber": "+91-424-182007",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist87.jpg",
+"docName": "Dr. H. Lakshmi BDS",
+"docId": "DNT087",
+"clinicId": "CLN107",
+"clinicName": "Smile Centre Erode",
+"clinicLocation": "Vairapalayam, Erode",
+"clinicNumber": "+91-422-585140",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist88.jpg",
+"docName": "Dr. Q. Sindhuja BDS",
+"docId": "DNT088",
+"clinicId": "CLN108",
+"clinicName": "Dental Hub Erode",
+"clinicLocation": "Surampatti, Erode",
+"clinicNumber": "+91-422-721887",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist89.jpg",
+"docName": "Dr. S. Kumar MDS",
+"docId": "DNT089",
+"clinicId": "CLN109",
+"clinicName": "Bright Smile Erode",
+"clinicLocation": "Bharani Nagar, Erode",
+"clinicNumber": "+91-4324-124111",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist90.jpg",
+"docName": "Dr. E. Prakash BDS",
+"docId": "DNT090",
+"clinicId": "CLN110",
+"clinicName": "Elite Dental Karur",
+"clinicLocation": "Pasupathipalayam, Karur",
+"clinicNumber": "+91-424-564711",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist91.jpg",
+"docName": "Dr. U. Sindhuja BDS",
+"docId": "DNT091",
+"clinicId": "CLN111",
+"clinicName": "Multispeciality Dental Erode",
+"clinicLocation": "Vairapalayam, Erode",
+"clinicNumber": "+91-424-927629",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist92.jpg",
+"docName": "Dr. Q. Sindhuja BDS",
+"docId": "DNT092",
+"clinicId": "CLN112",
+"clinicName": "Pearl White Erode",
+"clinicLocation": "Surampatti, Erode",
+"clinicNumber": "+91-4324-459320",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist93.jpg",
+"docName": "Dr. Q. Priya MDS",
+"docId": "DNT093",
+"clinicId": "CLN113",
+"clinicName": "Dental Care Centre Coimbatore",
+"clinicLocation": "Peelamedu, Coimbatore",
+"clinicNumber": "+91-424-154282",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist94.jpg",
+"docName": "Dr. U. Narayanan BDS",
+"docId": "DNT094",
+"clinicId": "CLN114",
+"clinicName": "Dental Care Centre Erode",
+"clinicLocation": "C.M.S. Road, Erode",
+"clinicNumber": "+91-424-997644",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist95.jpg",
+"docName": "Dr. G. Srinivasan MDS",
+"docId": "DNT095",
+"clinicId": "CLN115",
+"clinicName": "Pearl Dental Karur",
+"clinicLocation": "Pasupathikoil, Karur",
+"clinicNumber": "+91-424-439728",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist96.jpg",
+"docName": "Dr. V. Anitha MDS",
+"docId": "DNT096",
+"clinicId": "CLN116",
+"clinicName": "Pearl Dental Karur",
+"clinicLocation": "Pugalur, Karur",
+"clinicNumber": "+91-422-261839",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist97.jpg",
+"docName": "Dr. F. Kumar MDS",
+"docId": "DNT097",
+"clinicId": "CLN117",
+"clinicName": "Bright Smile Karur",
+"clinicLocation": "Kulithalai Road, Karur",
+"clinicNumber": "+91-4324-890041",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist98.jpg",
+"docName": "Dr. T. Deepa BDS",
+"docId": "DNT098",
+"clinicId": "CLN118",
+"clinicName": "Dental World Erode",
+"clinicLocation": "C.M.S. Road, Erode",
+"clinicNumber": "+91-422-150977",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist99.jpg",
+"docName": "Dr. E. Menon MDS",
+"docId": "DNT099",
+"clinicId": "CLN119",
+"clinicName": "Dental Harmony Coimbatore",
+"clinicLocation": "Peelamedu, Coimbatore",
+"clinicNumber": "+91-4324-111258",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist100.jpg",
+"docName": "Dr. N. Babu MDS",
+"docId": "DNT100",
+"clinicId": "CLN120",
+"clinicName": "Pearl White Karur",
+"clinicLocation": "Pasupathikoil, Karur",
+"clinicNumber": "+91-4324-277568",
+"dhnDr": false
+},
+{
+"docImg": "https://example.com/images/dentist1.jpg",
+"docName": "Dr. Dr. K. R. Rithani B.D.S.",
+"docId": "DNT100",
+"clinicId": "CLN121",
+"clinicName": "Sai Dental Clinic Erode",
+"clinicLocation": "Gayatri Complex, Near new bus stand, Kodumudi, Erode",
+"clinicNumber": "+91-424-871686",
+"dhnDr": true
+}
+]
