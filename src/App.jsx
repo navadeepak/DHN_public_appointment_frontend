@@ -9,15 +9,21 @@ import StarterPage from "./pages/checkingPages/StarterPage";
 import Doctors from "./pages/checkingPages/Doctors";
 import TargetedDentist from "./pages/checkingPages/TargetedDentist";
 import { Login, Register } from "./pages/loginAndRegister/LoginAndRegister"; // Adjust path as needed (e.g., if in a separate file)
+import UserDashboard from "./pages/checkingPages/UserDashboard";
+import UserAppointmentDetails from "./pages/checkingPages/UserAppointmentDetails";
 
 function AppContent() {
   const location = useLocation();
   const { pathname } = location;
-  const isAuthPage = ['/', '/login', '/register'].includes(pathname);
+  const isAuthPage = ["/", "/login", "/register"].includes(pathname);
   return (
     <div className="w-screen h-screen flex flex-col overflow-hidden bg-linear-65 to-teal-500 from-blue-500 ">
       {!isAuthPage && <Navbar />}
-      <div className={`w-screen ${isAuthPage ? 'h-screen' : 'h-[92vh]'} flex justify-center`}>
+      <div
+        className={`w-screen ${
+          isAuthPage ? "h-screen" : "h-[92vh]"
+        } flex justify-center`}
+      >
         {isAuthPage ? (
           <div className="w-full h-full overflow-auto flex flex-row">
             <Routes>
@@ -26,7 +32,12 @@ function AppContent() {
               <Route path="/register" element={<Register />} />
               <Route path="/starter" element={<StarterPage />} />
               <Route path="/doctors" element={<Doctors />} />
-              <Route path="/dentist" element={<TargetedDentist />} />
+              <Route path="/dentist/:id" element={<TargetedDentist />} />
+              <Route path="/user/:id" element={<UserDashboard />} />
+              <Route
+                path="/user-appointment/:id"
+                element={<UserAppointmentDetails />}
+              />
             </Routes>
           </div>
         ) : (
@@ -35,7 +46,12 @@ function AppContent() {
               <Routes>
                 <Route path="/starter" element={<StarterPage />} />
                 <Route path="/doctors" element={<Doctors />} />
-                <Route path="/dentist" element={<TargetedDentist />} />
+                <Route path="/dentist/:id" element={<TargetedDentist />} />
+                <Route path="/user/:id" element={<UserDashboard />} />
+                <Route
+                  path="/user-appointment/:id"
+                  element={<UserAppointmentDetails />}
+                />
               </Routes>
             </div>
           </div>

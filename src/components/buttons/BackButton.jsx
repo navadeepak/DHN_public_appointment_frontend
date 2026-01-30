@@ -5,7 +5,7 @@ function BackButton({ path }) {
   const navigate = useNavigate();
   return (
     <button
-      onClick={() => navigate(path)}
+      onClick={() => navigate(path || -1)}
       className="bg-gray-100 text-gray-500 rounded ease-in-out duration-200 flex flex-row items-center cursor-pointer"
     >
       <Icon icon="ic:twotone-keyboard-arrow-left" className="text-4xl" /> 

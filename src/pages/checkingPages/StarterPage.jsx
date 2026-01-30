@@ -3,6 +3,9 @@ import { useNavigate } from "react-router-dom";
 
 function StarterPage() {
   const navigate = useNavigate();
+  const user = JSON.parse(sessionStorage.getItem("user"))
+  console.log(user);
+  
   return (
     <div className="bg-white/80 w-full h-full p-10 flex flex-col items-center justify-center gap-20 max-sm:gap-10">
       <div className="flex flex-col w-full items-center justify-center">
@@ -13,12 +16,32 @@ function StarterPage() {
           Book Your Dental Appointment Easily
         </p>
       </div>
-      <button onClick={()=>navigate("/doctors")} className="flex flex-row gap-2 bg-gray-500 hover:bg-blue-500 duration-200 ease-in-out cursor-pointer hover:scale-105 text-white text-2xl max-sm:text-sm max-sm:font-bold max-sm:px-5 max-sm:py-3 p-7 py-5 rounded-full">
-        Book a Appointment{" "}
-        <span>
-          <Icon icon="tabler:arrow-narrow-right" className="text-[35px] max-sm:text-xl" />
-        </span>
-      </button>
+      <div className="flex flex-row items-center justify-center gap-4">
+        <button
+          onClick={() => navigate(`/user/${user.id}`)}
+          className="flex flex-row gap-2 bg-gray-500 hover:bg-blue-500 duration-200 ease-in-out cursor-pointer hover:scale-105 text-white text-2xl max-sm:text-sm max-sm:font-bold max-sm:px-5 max-sm:py-3 p-7 py-5 rounded-full"
+        >
+          My Profile{" "}
+          <span>
+            <Icon
+              icon="tabler:arrow-narrow-right"
+              className="text-[35px] max-sm:text-xl"
+            />
+          </span>
+        </button>
+        <button
+          onClick={() => navigate("/doctors")}
+          className="flex flex-row gap-2 bg-gray-500 hover:bg-blue-500 duration-200 ease-in-out cursor-pointer hover:scale-105 text-white text-2xl max-sm:text-sm max-sm:font-bold max-sm:px-5 max-sm:py-3 p-7 py-5 rounded-full"
+        >
+          Book a Appointment{" "}
+          <span>
+            <Icon
+              icon="tabler:arrow-narrow-right"
+              className="text-[35px] max-sm:text-xl"
+            />
+          </span>
+        </button>
+      </div>
       <p className="font-bold max-sm:text-sm text-transparent bg-linear-to-br from-gray-500 to-gray-500 bg-clip-text not-italic text-center ">
         Welcome to{" "}
         <span className="cursor-pointer text-blue-500">Dental Health Net</span>,

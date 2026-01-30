@@ -1,13 +1,32 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import NextButton from "../../components/buttons/NextButton";
 import { Icon } from "@iconify/react";
-import doctors from "../../sample_json_data/doctors_and_clinic_data.json";
+// import doctors from "../../sample_json_data/doctors_and_clinic_data.json";
 import profile from "../../assets/profile.png";
 import BackButton from "../../components/buttons/BackButton";
+import { useNavigate } from "react-router-dom";
 
 function Doctors() {
+  const navigate = useNavigate();
   const [selectedLocation, setSelectedLocation] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
+  const [doctors, setDoctors] = useState([]);
+
+  const getAllCLinics = async () => {
+    try {
+      const res = fetch(
+        "https://dependencyfordhn.dentalhealthnet.com/api/clinic-registration/get-enabled-clinic-list"
+      );
+      console.log(res);
+      setDoctors(res);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  useEffect(() => {
+    getAllCLinics();
+  }, []);
 
   const uniqueLocations = useMemo(() => {
     return [...new Set(doctors.map((d) => d.clinicLocation))].sort();
@@ -33,7 +52,7 @@ function Doctors() {
   return (
     <div className="h-full w-full flex flex-row overflow-auto">
       <div className="h-full w-full flex flex-col">
-        <div className="w-full h-full bg-white p-5 flex flex-col gap-5">
+        <div className="w-full h-full bg-white/80 p-5 flex flex-col gap-5">
           <div className="flex flex-row items-center gap-3 w-full">
             <BackButton path={-1} />
             <h1 className="font-bold text-4xl text-white">Doctors</h1>
@@ -100,8 +119,12 @@ function Doctors() {
                     </div>
                   </div>
                   <div>
+                    {console.log(data)}
                     {data.dhnDr && (
-                      <button className="cursor-pointer bg-cyan-500 hover:bg-cyan-100 hover:text-cyan-500 ease-in-out duration-200 shadow-md font-bold text-white p-2 rounded-md">
+                      <button
+                        onClick={() => navigate(`/dentist/${data.docId}`)}
+                        className="cursor-pointer bg-cyan-500 hover:bg-cyan-100 hover:text-cyan-500 ease-in-out duration-200 shadow-md font-bold text-white p-2 rounded-md"
+                      >
                         Book Clinic Visit
                       </button>
                     )}

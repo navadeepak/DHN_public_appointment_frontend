@@ -1,25 +1,42 @@
-import axios from 'axios';
+import axios from "axios";
 
-const instance = axios.create({
-  baseURL: 'http://localhost:3007',
+const Axiosinstance = axios.create({
+  // baseURL: 'http://localhost:3007',
+  baseURL: "https://dhnappointment.dentalhealthnet.com/api",
   timeout: 10000,
-  withCredentials: true, // **Key Fix**: Sends session cookies to backend
-  headers: { 'Content-Type': 'application/json' }
+  withCredentials: true,
+  headers: { "Content-Type": "application/json" },
 });
 
-// Request interceptor (add cookie log for debug)
-instance.interceptors.request.use((config) => {
-  console.log('Frontend Request to:', config.url, 'withCredentials:', config.withCredentials);
-  return config;
-}, (error) => Promise.reject(error));
+const AxiosinstanceseconderyBackend = axios.create({
+  baseURL: "https://dependencyfordhn.dentalhealthnet.com/api",
+});
 
-// Response interceptor (unchanged)
-instance.interceptors.response.use((response) => response, (error) => {
-  if (error.response?.status === 401) {
-    localStorage.removeItem('token');
-    window.location.href = '/login';
+Axiosinstance.interceptors.request.use(
+  (config) => {
+    const token = sessionStorage.getItem("token");
+
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+    }
+
+    console.log("Frontend Request to:", config.url);
+    console.log("JWT Sent:", token ? "YES" : "NO");
+
+    return config;
+  },
+  (error) => Promise.reject(error)
+);
+
+Axiosinstance.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error.response?.status === 401) {
+      sessionStorage.removeItem("token");
+      window.location.href = "/login";
+    }
+    return Promise.reject(error);
   }
-  return Promise.reject(error);
-});
+);
 
-export default instance;
+export { Axiosinstance, AxiosinstanceseconderyBackend };

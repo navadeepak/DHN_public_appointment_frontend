@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import AxiosInstance from "../../utilites/AxiosInstance"; // Adjust path
+import {Axiosinstance} from "../../utilites/AxiosInstance.js";
 
+// Register
 const Register = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -100,7 +101,7 @@ const Register = () => {
       });
       console.log("Verify response:", response.data); // Debug
       if (response.data.message === "Registration successful") {
-        localStorage.setItem("token", response.data.token);
+        sessionStorage.setItem("token", response.data.token);
         navigate("/login"); // Or dashboard
       }
     } catch (error) {
@@ -235,7 +236,7 @@ const Register = () => {
   );
 };
 
-// Login Component (unchanged)
+// login
 const Login = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -285,11 +286,30 @@ const Login = () => {
     setLoading(true);
     try {
       // Call backend /auth/login
-      const response = await AxiosInstance.post("/auth/login", formData);
+      const response = await Axiosinstance.post("/auth/login", formData);
+      console.log(response.data.user, "data");
+
       if (response.data.message === "Login successful") {
         // Store JWT token
-        localStorage.setItem("token", response.data.token);
-        navigate("/starter"); // Or to protected route, e.g., /doctors
+        sessionStorage.setItem("token", response.data.token);
+        sessionStorage.setItem(
+          "user",
+          JSON.stringify({
+            id: response.data.user.id,
+            name: response.data.user.name,
+            email: response.data.user.email,
+            phno: response.data.user.phno,
+          })
+        );
+        const stage = localStorage.getItem("stage");
+        console.log(stage);
+
+        if (stage) {
+          navigate(stage);
+          localStorage.clear();
+        } else {
+          navigate("/starter");
+        } // Or to protected route, e.g., /doctors
       }
     } catch (error) {
       const errMsg =
